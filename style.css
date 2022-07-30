@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+
+/*css reset*/
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a{
+    color: #84817d;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section{
+    width: 100%;
+    float: left;
+    height: 90vh;
+    position: relative;
+    border-color: orange;
+
+}
+
+section#home{
+    width: 100%;
+    float: left;
+    height: 10vh;
+    position: relative;
+}
+
+section#about{
+    width: 100%;
+    float: left;
+    height: 80vh;
+    position: relative;
+}
+
+section#contact{
+    width: 100%;
+    float: left;
+    height: 40vh;
+    position: relative;
+}
+
+.wbsc{
+    background: url(images/wbs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gbsc{
+    background: #1ae069;
+    padding-top: 164px;
+    color: #ffffff;
+    background: url(images/gbs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+#home{
+   background-color: white;
+}
+
+#about{
+     background-color: #1ae069;
+}
+
+#product{
+     background-color: white;
+}
+
+#pricing{
+     background-color: #1ae069;
+}
+
+#contact{
+     background-color: white;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #84817d;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -100px;
+    margin-left: 1000px;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
